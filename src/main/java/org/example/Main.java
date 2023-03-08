@@ -9,7 +9,7 @@ import javax.security.auth.login.LoginException;
 
 public class Main extends ListenerAdapter {
     public static void main(String[] args) throws LoginException {
-        JDA jda = JDABuilder.createDefault("MTA4MjMxMTExNjUyMjI3NDg3Ng.GDrrop.xwkg1gJMmjsZzWv7_iHNIQwAQIcSPGXUWl7has").build();
+        JDA jda = JDABuilder.createDefault("token 값 입력").build();
         //You can also add event listeners to the already built JDA instance
         // Note that some events may not be received if the listener is added after calling build()
         // This includes events such as the ReadyEvent
